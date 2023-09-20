@@ -3,29 +3,37 @@ site_url: https://example.com/
 nav:
   - Home: index.md
 theme:
-  features:
-    - header.autohide
   name: material
   palette:
-    # # Palette toggle for automatic mode
-    # - media: "(prefers-color-scheme)"
-    #   toggle:
-    #     icon: material/brightness-auto
-    #     name: Switch to light mode
-
-    # Palette toggle for light mode
-    - media: "(prefers-color-scheme: light)"
-      scheme: default 
+    - scheme: default
+      primary: blue
+      accent: lime
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
-
-    # Palette toggle for dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
+    - scheme: slate
+      primary: blue
+      accent: lime
       toggle:
         icon: material/brightness-4
-        name: Switch to system preference
+        name: Switch to light mode
+  features:
+    - content.action.edit
+    - content.action.view
+    - content.code.annotate
+    - content.code.copy
+    - search.highlight
+    - search.share
+    - search.suggest
+    # - navigation.footer
+    - navigation.indexes
+    - navigation.sections
+    - navigation.tabs
+    - navigation.top
+    - navigation.tracking
+
+
+
 
 
 extra:
@@ -35,3 +43,27 @@ extra:
       link: https://github.com/ankits-dot/system-commands-notes
       name: Contribute on Github
 
+plugins:
+  - blog:
+      # post_date_format: full
+        blog_dir: blog
+
+
+  - search:
+      separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+  - minify:
+      minify_html: true
+
+nav:
+  - Home: index.md
+  - System Commands:
+      - Notes: system-commands/index.md
+      - Readings: system-commands/references.md
+      - Videos: system-commands/videos.md
+      - Problems: system-commands/Problems/index.md
+  - PDSA: PDSA/index.md
+  - DBMS: DBMS/index.md
+  - MAD 1: mad-1/index.md
+  - MAD 2: mad-2/index.md
+  - Java: java/index.md
+  - How to Contribute: contribute.md

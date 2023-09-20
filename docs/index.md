@@ -1,3 +1,4 @@
-# Browse Notes
+## Notes for Diploma in Programming
 
-[System Commands](system-commands) Learn to use the Command Line Interface
+Here are the Notes for 6 Programming Courses. Its a work still in progress. Please consider contributing via github.
+
