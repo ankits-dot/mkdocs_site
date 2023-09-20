@@ -7,7 +7,7 @@
 
 ## Week 2
 
-* [Lecture 1](/system-commands-courseWeek-2/Lecture1) Simple Commands 2.0
+* [Lecture 1](Week-2/Lecture1) Simple Commands 2.0
 * [Lecture 2](Week-2/Lecture2) Shell Variables
 * [Lecture 3, 4](Week-2/Lecture3-4) Operations on Shell Variables and Arrays
 * [Lecture 5](Week-2/Lecture5) Linux Process Management
