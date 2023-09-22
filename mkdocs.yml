@@ -1,9 +1,9 @@
 site_name: Programming Notes
 site_url: https://example.com/
-nav:
-  - Home: index.md
+
 theme:
   name: material
+  highlightjs: true
   palette:
     - scheme: default
       primary: blue
@@ -45,25 +45,33 @@ extra:
 
 plugins:
   - blog:
-      # post_date_format: full
+        post_date_format: full
         blog_dir: blog
-
-
   - search:
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
   - minify:
       minify_html: true
 
+
+#Information on How to navigate from the home page all parts of the website
 nav:
   - Home: index.md
   - System Commands:
-      - Notes: system-commands/index.md
-      - Readings: system-commands/references.md
-      - Videos: system-commands/videos.md
-      - Problems: system-commands/Problems/index.md
-  - PDSA: PDSA/index.md
-  - DBMS: DBMS/index.md
-  - MAD 1: mad-1/index.md
-  - MAD 2: mad-2/index.md
-  - Java: Java/index.md
-  - How to Contribute: contribute.md
+      - Home: system-commands/notes/index.md
+      - Notes: system-commands/notes/index.md
+      - Readings: system-commands/readings/index.md
+      - Videos: system-commands/videos/index.md
+      - Free MOOCs: system-commands/MOOCs/index.md
+      - Problems: system-commands/problems/index.md
+      - About the Course: system-commands/about/index.md
+      - Credits: system-commands/credits/index.md
+  # - PDSA: PDSA/index.md
+  # - DBMS: DBMS/index.md
+  # - MAD 1: mad-1/index.md
+  # - MAD 2: mad-2/index.md
+  # - Java: Java/index.md
+  - How to Contribute: contribute/index.md
+
+
+
+#using the below settings from mkdocs default theme   
