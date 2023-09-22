@@ -5,6 +5,7 @@ site_url: https://ankits.live/programming-notes
 # Repository
 repo_name: ankits-dot/programming-notes
 repo_url: https://github.com/ankits-dot/programming-notes
+edit_uri: edit/unstable/docs/
 
 # Extensions
 markdown_extensions:
@@ -30,6 +31,13 @@ theme:
     previous: 80 # p
     search: 83   # s
   highlightjs: true
+
+  #when editing a page
+  theme:
+  icon:
+    edit: material/pencil 
+    view: material/eye
+
   palette:
     #light mode
     - scheme: default
