@@ -87,6 +87,16 @@ plugins:
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
   - minify:
       minify_html: true
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: timeago
+  - git-authors:
+      show_contribution: true
+      show_line_count: true
+
+
+
+
 
 
 #Information on How to navigate from the home page all parts of the website
