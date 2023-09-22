@@ -1,18 +1,46 @@
 site_name: Programming Notes
-site_url: https://example.com/
+site_description: Readable material for Programming topics
+site_url: https://ankits.live/programming-notes
+
+# Repository
+repo_name: ankits-dot/programming-notes
+repo_url: https://github.com/ankits-dot/programming-notes
+
+# Extensions
+markdown_extensions:
+  - footnotes
+  - nl2br
+  - attr_list
+  - sane_lists
+  - meta
+  - smarty
+  - tables
+  - def_list
+
 
 theme:
   name: material
+  favicon: assets/logo/logo.svg
+  logo: assets/logo/logo.svg
+
+  #shortcuts
+  shortcuts:
+    help: 191    # ?
+    next: 78     # n
+    previous: 80 # p
+    search: 83   # s
   highlightjs: true
   palette:
+    #light mode
     - scheme: default
-      primary: blue
+      primary: teal
       accent: lime
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
+    #dark mode
     - scheme: slate
-      primary: blue
+      primary: teal
       accent: lime
       toggle:
         icon: material/brightness-4
