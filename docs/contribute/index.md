@@ -2,8 +2,8 @@
 
 For contributing, It'll be recommended for you to learn two things.
 
-- Markdown
-- Basics of Git and Github usage 
+- [Markdown](markdown-resources)
+- Basics of [Git](git-resources) and [Github](github-resources) usage 
 
 Markdown is a quite simple markup language, which you can get started using within 1 hour of learning. Its simpler than you'd expect.
 
