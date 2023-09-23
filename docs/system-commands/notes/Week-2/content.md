@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # Simple Commands
 
 In this section We cover the following topics:

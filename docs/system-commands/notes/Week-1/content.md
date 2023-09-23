@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # Getting Started
 
 In this section we cover the following topics

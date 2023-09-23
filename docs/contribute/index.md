@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 ### How to contribute to improve these notes?
 
 For contributing, It'll be recommended for you to learn two things.
