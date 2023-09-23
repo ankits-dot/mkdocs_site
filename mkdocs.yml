@@ -76,16 +76,10 @@ theme:
 
 
 
-extra:
-  generator: false
-  social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/ankits-dot/system-commands-notes
-      name: Contribute on Github
 
 markdown_extensions:
   - toc:
-      title: In this Week
+      title: On this Page
       toc_depth: 2
   - pymdownx.highlight:
       anchor_linenums: true
@@ -114,10 +108,33 @@ extra:
   analytics:
     provider: google
     property: G-Y3M9M779JV
+  generator: false
+
 
 #Information on How to navigate from the home page all parts of the website
 nav:
   - Home: index.md
+  - Programming in Python:
+      - About the Course: python/about/index.md
+      - Notes:
+          - Week 1: python/notes/week-1/content.md
+          - Week 2: python/notes/week-2/content.md
+          - Week 3: python/notes/week-3/content.md
+          - Week 4: python/notes/week-4/content.md
+          - Week 5: python/notes/week-5/content.md
+          - Week 6: python/notes/week-6/content.md
+          - Week 7: python/notes/week-7/content.md
+          - Week 8: python/notes/week-8/content.md
+          - Week 9: python/notes/week-8/content.md
+          - Week 10: python/notes/week-8/content.md
+          - Week 11: python/notes/week-8/content.md
+          - Week 12: python/notes/week-8/content.md
+      - Readings: python/readings/index.md
+      - Videos: python/videos/index.md
+      - Free MOOCs: python/MOOCs/index.md
+      - Problems: python/problems/index.md
+      - Credits: python/credits/index.md
+
   - System Commands:
       - About the Course: system-commands/about/index.md
       - Notes:
@@ -129,8 +146,6 @@ nav:
           - Week 6: system-commands/notes/Week-6/content.md
           - Week 7: system-commands/notes/Week-7/content.md
           - Week 8: system-commands/notes/Week-8/content.md
-
-
       - Readings: system-commands/readings/index.md
       - Videos: system-commands/videos/index.md
       - Free MOOCs: system-commands/MOOCs/index.md
