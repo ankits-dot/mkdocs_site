@@ -75,6 +75,7 @@ theme:
 
 
 
+
 extra:
   generator: false
   social:
@@ -86,6 +87,12 @@ markdown_extensions:
   - toc:
       title: In this Week
       toc_depth: 2
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+
 
 
 
@@ -96,6 +103,8 @@ plugins:
       # post_dir: "{blog}/articles"
       archive_date_format: MMMM yyyy
       post_readtime: true
+      blog_toc: true
+
   - search:
       separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
   - minify:
