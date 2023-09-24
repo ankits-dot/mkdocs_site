@@ -62,6 +62,7 @@ theme:
     - search.highlight
     - search.share
     - search.suggest
+    - navigation.instant
     - navigation.footer
     # - navigation.sections
     - navigation.tabs
