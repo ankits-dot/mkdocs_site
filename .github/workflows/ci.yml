@@ -2,7 +2,7 @@ name: ci
 on:
   push:
     branches:
-      - unstable
+      - master 
       - main
 permissions:
   contents: write
@@ -23,4 +23,3 @@ jobs:
             mkdocs-material-
       - run: pip install mkdocs-material mkdocs-minify-plugin
       - run: mkdocs gh-deploy --force
-
