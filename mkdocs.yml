@@ -70,24 +70,18 @@ theme:
     - toc.follow
     # - toc.integrate 
 
-
-
-
-
-
-
-
 markdown_extensions:
   - toc:
       title: On this Page
       toc_depth: 2
+      permalink: true
+      permalink_title: Copy link to this section for reference
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
       pygments_lang_class: true
   - pymdownx.inlinehilite
-
-
+  - admonition
 
 
 plugins:
@@ -98,7 +92,6 @@ plugins:
       archive_date_format: MMMM yyyy
       post_readtime: true
       blog_toc: true
-
   - search:
       separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
   - minify:
@@ -113,7 +106,9 @@ extra:
 
 #Information on How to navigate from the home page all parts of the website
 nav:
-  - Home: index.md
+  - Home:
+      - About: index.md
+      - Credits: credits/index.md
   - Programming in Python:
       - About the Course: python/about/index.md
       - Notes:
@@ -133,7 +128,6 @@ nav:
       - Videos: python/videos/index.md
       - Free MOOCs: python/MOOCs/index.md
       - Problems: python/problems/index.md
-      - Credits: python/credits/index.md
 
   - System Commands:
       - About the Course: system-commands/about/index.md
@@ -150,7 +144,6 @@ nav:
       - Videos: system-commands/videos/index.md
       - Free MOOCs: system-commands/MOOCs/index.md
       - Problems: system-commands/problems/index.md
-      - Credits: system-commands/credits/index.md
   # - PDSA: PDSA/index.md
   # - DBMS: DBMS/index.md
   # - MAD 1: mad-1/index.md

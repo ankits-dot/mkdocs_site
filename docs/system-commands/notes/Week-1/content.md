@@ -645,5 +645,5 @@ groot sudo
 | ` q ` | quit man page, pages opened by commands like ` less ` |
 
    
-
+## [Problems for Practice](../../problems/index.md/#week-1)
 
