@@ -23,4 +23,7 @@ jobs:
             mkdocs-material-
       - run: pip install mkdocs-material mkdocs-minify-plugin
       - run: mkdocs gh-deploy --force
+      - run: git switch gh-pages
+      - run: rm CNAME.txt
+      - run: echo notes.ankits.live > CNAME.txt
 
