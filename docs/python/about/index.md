@@ -1,3 +1,3 @@
 # Why Learn Programming?
 
-Learning this will be helpful.
+Programming is basically solving problems with the help of a Computer.
