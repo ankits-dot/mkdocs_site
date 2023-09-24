@@ -113,18 +113,18 @@ nav:
   - Programming in Python:
       - About the Course: python/about/index.md
       - Notes:
-          - Week 1: python/notes/week-1/content.md
-          - Week 2: python/notes/week-2/content.md
-          - Week 3: python/notes/week-3/content.md
-          - Week 4: python/notes/week-4/content.md
-          - Week 5: python/notes/week-5/content.md
-          - Week 6: python/notes/week-6/content.md
-          - Week 7: python/notes/week-7/content.md
-          - Week 8: python/notes/week-8/content.md
-          - Week 9: python/notes/week-8/content.md
-          - Week 10: python/notes/week-8/content.md
-          - Week 11: python/notes/week-8/content.md
-          - Week 12: python/notes/week-8/content.md
+          - Week 1: python/notes/week-1/index.md
+          - Week 2: python/notes/week-2/index.md
+          - Week 3: python/notes/week-3/index.md
+          - Week 4: python/notes/week-4/index.md
+          - Week 5: python/notes/week-5/index.md
+          - Week 6: python/notes/week-6/index.md
+          - Week 7: python/notes/week-7/index.md
+          - Week 8: python/notes/week-8/index.md
+          - Week 9: python/notes/week-8/index.md
+          - Week 10: python/notes/week-8/index.md
+          - Week 11: python/notes/week-8/index.md
+          - Week 12: python/notes/week-8/index.md
       - Readings: python/readings/index.md
       - Videos: python/videos/index.md
       - Free MOOCs: python/MOOCs/index.md
@@ -133,14 +133,14 @@ nav:
   - System Commands:
       - About the Course: system-commands/about/index.md
       - Notes:
-          - Week 1: system-commands/notes/Week-1/content.md
-          - Week 2: system-commands/notes/Week-2/content.md
-          - Week 3: system-commands/notes/Week-3/content.md
-          - Week 4: system-commands/notes/Week-4/content.md
-          - Week 5: system-commands/notes/Week-5/content.md
-          - Week 6: system-commands/notes/Week-6/content.md
-          - Week 7: system-commands/notes/Week-7/content.md
-          - Week 8: system-commands/notes/Week-8/content.md
+          - Week 1: system-commands/notes/Week-1/index.md
+          - Week 2: system-commands/notes/Week-2/index.md
+          - Week 3: system-commands/notes/Week-3/index.md
+          - Week 4: system-commands/notes/Week-4/index.md
+          - Week 5: system-commands/notes/Week-5/index.md
+          - Week 6: system-commands/notes/Week-6/index.md
+          - Week 7: system-commands/notes/Week-7/index.md
+          - Week 8: system-commands/notes/Week-8/index.md
       - Readings: system-commands/readings/index.md
       - Videos: system-commands/videos/index.md
       - Free MOOCs: system-commands/MOOCs/index.md
