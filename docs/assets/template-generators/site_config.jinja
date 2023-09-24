@@ -1,3 +1,13 @@
+list = 
+for course in list:
+   for i in range(1, 13):
+       print(f"- week{i}: {course}/notes/week-{i}/index.md")
+   print(f"- Readings: {course}/readings/index.md")
+   print(f"- Videos: {course}/videos/index.md")
+   print(f"- Free MOOCs: {course}/MOOCs/index.md")
+   print(f"- Problems: {course}/problems/index.md")
+
+
 site_name: Programming Notes
 site_description: Readable material for Programming topics
 site_url: https://ankits.live/programming-notes
@@ -62,12 +72,12 @@ theme:
     - search.highlight
     - search.share
     - search.suggest
-    - navigation.instant
-    - navigation.footer
+    # - navigation.footer
     # - navigation.sections
     - navigation.tabs
     - navigation.top
     - navigation.tracking
+    - navigation.indexes
     - toc.follow
     # - toc.integrate 
 
@@ -76,7 +86,7 @@ markdown_extensions:
       title: On this Page
       toc_depth: 2
       permalink: true
-      permalink_title: Copy link to this section for reference
+      permalink_title: Create link to this heading
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
@@ -106,6 +116,7 @@ extra:
 
 
 #Information on How to navigate from the home page all parts of the website
+course_list = ['system-commands', 'python', 'mad-1', 'mad-2', 'dbms', 'pdsa', 'java']
 nav:
   - Home:
       - About: index.md
